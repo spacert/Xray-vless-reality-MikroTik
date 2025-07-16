@@ -57,6 +57,7 @@ cat <<EOF > /opt/xray/config/config.json
             "users": [
               {
                 "id": "$USER_ID",
+		"flow": "$FLOW"
                 "encryption": "$ENCRYPTION",
                 "alterId": 0
               }
